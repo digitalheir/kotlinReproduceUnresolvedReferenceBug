@@ -1,0 +1,4 @@
+include ':libandroid'
+include ':lib_android'
+include ':app', ":lib_common"
+rootProject.name = "ReproduceUnresolvedReferenceBug"
